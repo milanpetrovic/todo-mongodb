@@ -6,7 +6,7 @@ Exercise project
 
 Status | Components
 ------------ | -------------
-:hourglass: | Initial App Setup
+:heavy_check_mark: | Initial App Setup
 :hourglass: | Automatic Node Restart
 :hourglass: | Connecting App To the Database
 :hourglass: | Reading Data From the Database
