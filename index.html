@@ -39,10 +39,10 @@
               <h2 class="text-3xl font-extrabold text-white sm:text-4xl">To-Do App</h2>
               <p class="mt-6 mx-auto max-w-2xl text-lg text-indigo-200">Add any new task or edit / delete existing tasks.</p>
             </div>
-            <form action="#" class="mt-12 sm:flex w-full">
+            <form action="/create-item" method="POST" class="mt-12 sm:flex w-full">
               <div class="min-w-0 flex-1">
                 <label for="task" class="sr-only">Enter Your Task</label>
-                <input id="task" type="text" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" placeholder="Enter Your Task" autocomplete="off">
+                <input id="task" type="text" name="task" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" placeholder="Enter Your Task" autocomplete="off">
               </div>
               <div class="mt-4 sm:mt-0 sm:ml-3">
                 <button type="submit" class="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">Add New Item</button>
