@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/app.css --watch",
-    "production": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/app.min.css --minify"
+    "production": "tailwindcss -i ./public/css/tailwind.css -o ./public/css/app.min.css --minify",
+    "nodemon": "nodemon -e * server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/milanpetrovic/todo-mongodb#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",
